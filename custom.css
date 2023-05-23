@@ -409,7 +409,7 @@ mark,
 
 .line3 img {
   position: absolute;
-  top: 183px;
+  top: 173px;
   left: 10px;
   width: 50px;
 }
@@ -444,7 +444,42 @@ mark,
   width: 50px;
 }
 
+.line5b img {
+  position: absolute;
+  top: 220px;
+  left: 10px;
+  width: 50px;
+}
+
+.line6 img {
+  position: absolute;
+  top: 270px;
+  left: 10px;
+  width: 50px;
+}
+
+.line6b img {
+  position: absolute;
+  top: 250px;
+  left: 10px;
+  width: 50px;
+}
+
 .line7 img {
+  position: absolute;
+  top: 300px;
+  left: 10px;
+  width: 50px;
+}
+
+.line8 img {
+  position: absolute;
+  top: 330px;
+  left: 10px;
+  width: 50px;
+}
+
+.line8b img {
   position: absolute;
   top: 300px;
   left: 10px;
@@ -504,9 +539,10 @@ blockquote {
   border-left: 10px solid #ccc;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
-  quotes: "\201C""\201D""\2018""\2019";
+  /* quotes: "\201C""\201D""\2018""\2019"; */
 }
 
+/*
 blockquote:before {
   color: #ccc;
   content: open-quote;
@@ -515,6 +551,7 @@ blockquote:before {
   margin-right: 0.25em;
   vertical-align: -0.4em;
 }
+*/
 
 blockquote p {
   display: inline;
